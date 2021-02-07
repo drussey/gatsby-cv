@@ -146,7 +146,7 @@ export default styled(Timeline)`
 
   ${p => config().media['sm']`
   .timeline__item div.inner {
-    width: 40%;
+    width: 45%;
     margin: 5px 0 0 0;
   }
 

@@ -7,7 +7,7 @@
   Online Resume
 </h1>
 
-Online cv created based on this template: [gatsby-starter-cv](https://github.com/santosfrancisco/gatsby-starter-cv)
+Online resumé based on this template: [gatsby-starter-cv](https://github.com/ajimenezdev/gatsby-cv) which was originally created from this template: [gatsby-starter-cv](https://github.com/santosfrancisco/gatsby-starter-cv)
 Template changed to include navigation bar and some extra sections and data
 
 ## 📷 Preview
@@ -179,7 +179,7 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/favicon.jpg',
+  icon: 'src/assets/favicon.ico',
   resume: '/resume_alvaro_jimenez.pdf',
   headerLinks: [
     // {

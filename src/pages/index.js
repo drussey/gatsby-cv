@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
 import {
   FaGithub,
+  FaStackOverflow,
   FaLinkedin,
   FaEnvelope,
   FaTwitter,
@@ -19,7 +20,7 @@ import {
   Skills,
   Timeline,
   Education,
-  Publications,
+  //Publications,
   Hobbies,
   // Contact,
 } from '../components'
@@ -65,6 +66,16 @@ class Home extends React.Component {
                         rel="noopener noreferrer"
                       >
                         <FaGithub className="social-icon" size="32" />
+                      </a>
+                    )}
+                    {siteConfig.social.stackoverflow && (
+                      <a
+                        className="social-link stackoverflow"
+                        href={siteConfig.social.stackoverflow}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaStackOverflow className="social-icon" size="32" />
                       </a>
                     )}
                     {siteConfig.social.linkedin && (
@@ -123,13 +134,13 @@ class Home extends React.Component {
               {/* <Separator />
             <Repositories /> */}
               <Separator />
-              <Publications />
-              <Separator />
+              {/* <Publications /> 
+              <Separator /> */}
               <Education />
               <Separator />
               <Hobbies />
-              <Separator />
-              {/* <Contact /> */}
+              {/*<Separator />
+               <Contact /> */}
             </Container>
           </Wrapper>
         </Layout>
@@ -175,6 +186,10 @@ export default styled(Home)`
 
   a.social-link.github:hover {
     color: #24292e;
+  }
+
+  a.social-link.stackoverflow:hover {
+    color: #f48024;
   }
 
   a.social-link.linkedin:hover {
