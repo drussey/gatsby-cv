@@ -60,11 +60,11 @@ module.exports = {
       description:
         'At TrialPay.com / Visa I work with to create backend PHP code utilizing MySQL and memcached\
         to provide APIs and dynamic webpages to give users access to card-linked offers. I also\
-        worked with a variety of AWS technologies including EC2 instances, load balancers, S3 storage,\
-        and the Cloudfront CDN in support and maintain site reliability on live production servers.\
-        I also worked with the Spring Framework, particularly Spring Boot as well as MySQL and kafka\
+        work with a variety of AWS technologies including EC2 instances, load balancers, S3 storage,\
+        and the Cloudfront CDN to ensure site reliability on live production servers.\
+        I also work with the Spring Framework, particularly Spring Boot as well as MySQL and kafka\
         to develop other backend APIs for the Visa Crypto team. For this team I have researched and\
-        explored the functions of Ethereum smart contracts and worked with Solidity to create proof of\
+        explored the functions of Ethereum smart contracts and work with Solidity to create proof of\
         concept smart contracts for Visa.',
     },
     {
