@@ -12,7 +12,7 @@ module.exports = {
     for creating reliable backend software and infrastructure for web software that can
     scale to handle consumer demand. I have experience in creating and maintaining
     infrastructure on cloud computing platforms, AWS in particular. These responsibilities
-    also include detecting and mitigating live production errors with both infastructure 
+    also include detecting and mitigating live production errors with both infrastructure 
     and application code fixes.`,
   skills: [
     {
