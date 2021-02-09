@@ -9,9 +9,9 @@ module.exports = {
   authorDescription: 
     `I'm a software engineer using critical thinking and problem solving to develop
     backend application logic. I enjoy learning new technologies to add to my toolbox 
-    for creating reliable backend software and infastructure for web sofware that can
+    for creating reliable backend software and infrastructure for web software that can
     scale to handle consumer demand. I have experience in creating and maintaining
-    infastructure on cloud computing platforms, AWS in particular. These resopnsibilities
+    infrastructure on cloud computing platforms, AWS in particular. These responsibilities
     also include detecting and mitigating live production errors with both infastructure 
     and application code fixes.`,
   skills: [
