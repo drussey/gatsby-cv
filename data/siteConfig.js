@@ -128,7 +128,7 @@ module.exports = {
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/favicon.png',
-  //resume: '/resume_daniel_russey.pdf',
+  resume: '/Daniel_Russey_resume.pdf',
   headerLinks: [
     // {
     //   label: 'Alvaro Jimenez Martin',
